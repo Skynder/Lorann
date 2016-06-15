@@ -1,4 +1,4 @@
-package main; //test Maxime
+package main; //test Maxime2
 
 import controller.Controller;
 import model.Model;
