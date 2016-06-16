@@ -36,7 +36,8 @@ public class Controller implements IController {
 	 * @see contract.IController#control()
 	 */
 	public void control() {
-		this.view.printMessage("Appuyer sur les touches 'E', 'F', 'D' ou 'I', pour afficher Hello World dans la langue de votre choix.");
+		this.view.printMessage("Press '1', '2', '3', '4' or '5' to choose the game's level.\n\n1) Level 1\n2) Level 2\n3) Level 3\n4) Level 4\n5) Level 5");
+		
 	}
 
 	/**
