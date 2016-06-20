@@ -2,9 +2,9 @@ package model;
 
 public class FireBall {
 
-	public void castFireBall()     //If Lorann going on the left, fire ball cast on the right
+	public boolean castFireBall()     //If Lorann going on the left, fire ball cast on the right
 	{
-		
+		return true;
 	}
 	
 	public void fireBallColorChange()

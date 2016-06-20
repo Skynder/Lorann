@@ -8,6 +8,12 @@ public class InformationsDisplay {
 	int energyBall = 200;
 	int monsterKill = 1000;
 	
+	public int level()
+	{
+		//KeyListener between 1 and 5
+		return level();
+	}
+	
 	 public boolean monsterKillScore()
 		{
 			return true;
@@ -55,7 +61,6 @@ public class InformationsDisplay {
 		}
 		return healthPoints;
 	}
-	
 	
 	
 }
