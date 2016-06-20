@@ -5,6 +5,58 @@ package model;
  *
  * @author Jean-Aymeric Diet
  */
-abstract class Entity {
+abstract class Entity 
+{
 
+	public void playerMove()
+	{
+		
+	}
+	
+	 playerSpeed()
+	{
+		
+	}
+	
+	 monsterMove()
+	{
+		
+	}
+	
+	 monsterFirstMove()
+	{
+		
+	}
+	
+	 monsterHit()
+	{
+		
+	}
+	
+	 mosterKill()
+	{
+		
+	
+	
+	 monsterSpeed()
+	{
+		
+	}
+	
+	 snakeAndDoor()
+	{
+		
+	}
+	
+	 snakeHit()
+	{
+		
+	}
+	
+	 wallsHit()
+	{
+		
+	}
+	
+	
 }

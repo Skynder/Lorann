@@ -24,7 +24,7 @@ class DBProperties extends Properties {
 	private String							login									= "";
 
 	/** The password. */
-	private String							password							= "";
+	private String							password								= "";
 
 	/**
 	 * Instantiates a new DB properties.
