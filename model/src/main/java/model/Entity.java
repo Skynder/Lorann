@@ -55,23 +55,25 @@ abstract class Entity
 	
 	 public void monsterMove()		//half turn when hits a wall, follow the player when same line or same column
 	{
-		
+		 /*Moves state by state in front of him, half turn when he hits a wall,
+		 as Lorann, follows Lorann when the monster is at the same column
+		 or same line*/
 	}
 	 
 	 public boolean monsterFirstMove()	// monsterFirstMove when lorann's First move done
 		{
-			
+			// Lorann's first move = first keyPressed
 		 return true;
 		}
 	 
 	 public boolean lorannFirstMove()	
 	 {
-		 
-		return true;
+		 		//First keyPressed
+		return true;	
 	 }
 	 	 
 	 	
-	public void monsterHit()	//With player Location
+	public void monsterHit()	//With player Location = playerLocation
 	{
 		
 	}
@@ -87,7 +89,7 @@ abstract class Entity
 		
 	}
 	
-	public void wallsHit()
+	public void wallsHit() 		//When PlayerLocation = Sprite location
 	{
 		
 	}

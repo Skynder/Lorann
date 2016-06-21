@@ -1,6 +1,6 @@
 package view;
 
-public class InformationsDisplay {
+public class InformationsDisplay {		//At the bottom of the LaunchScreen
 
 	int healthPoints = 10;
 	int playerScore = 0;

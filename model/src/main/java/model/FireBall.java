@@ -12,7 +12,7 @@ public class FireBall {
 		
 	}
 	
-	public boolean fireBallRecovery()	//Fireball location = Lorann Location, fireball recovered
+	public boolean fireBallRecovery()	//if Fireball location = Lorann Location, fireball recovered
 	{
 		return true;
 	}
