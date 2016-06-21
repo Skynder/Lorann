@@ -26,15 +26,18 @@ abstract class Entity
 		// KeyListeners (d, x+32; s, y-32; q, x-32; z, y+32)
 	}
 	
-	public int playerxLocation()
+	public int playerxLocation()	//X Location
 	{
 		return xplayer;
 	}
 	
-	public int playeryLocation()
+	public int playeryLocation()	//Y location
 	{
 		return yplayer;
 	}
+	
+	
+	//Location used for the Monsters Hits and the IA programming 
 	
 	 public int playerSpeed() // playerSpeed = monsterSpeed
 	{
@@ -43,7 +46,7 @@ abstract class Entity
 	}
 
 		
-	public int monsterSpeed()
+	public int monsterSpeed()	//monsterSpeed, same as playerSpeed
 	{
 		int monsterSpeed = 20;
 		return monsterSpeed;
@@ -61,25 +64,25 @@ abstract class Entity
 		 return true;
 		}
 	 
-	 public boolean lorannFirstMove()
+	 public boolean lorannFirstMove()	
 	 {
 		 
 		return true;
 	 }
 	 	 
 	 	
-	public void monsterHit()
+	public void monsterHit()	//With player Location
 	{
 		
 	}
 	
 		 
-	public void snakeDoor()
+	public void snakeDoor()		//If energy ball recovered, Snake --> Door
 	{
 		
 	}
 	
-	public void snakeHit()
+	public void snakeHit()	//Location Snake = Location player, player dies
 	{
 		
 	}

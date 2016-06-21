@@ -7,12 +7,12 @@ public class FireBall {
 		return true;
 	}
 	
-	public void fireBallColorChange()
+	public void fireBallColorChange()	//Fireball changes color every "32 pixels" up or down
 	{
 		
 	}
 	
-	public boolean fireBallRecovery()
+	public boolean fireBallRecovery()	//Fireball location = Lorann Location, fireball recovered
 	{
 		return true;
 	}

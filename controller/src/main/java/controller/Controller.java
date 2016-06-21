@@ -38,7 +38,7 @@ public class Controller implements IController {
 	public void control() {
 		this.view.printMessage("Press '1', '2', '3', '4' or '5' to choose the game's level.\n\n1) Level 1\n2) Level 2\n3) Level 3\n4) Level 4\n5) Level 5");
 		
-	}
+	}	//Message printed when we launch the program
 
 	/**
 	 * Sets the view.

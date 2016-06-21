@@ -14,17 +14,17 @@ public class InformationsDisplay {
 		return level();
 	}
 	
-	 public boolean monsterKillScore()
+	 public boolean monsterKillScore()	// + 1000 points if a monster dies
 		{
 			return true;
 		}
 	
-	public boolean moneyBagRecovery()
+	public boolean moneyBagRecovery()	// + 500 points if a moneyBag is recovered
 	{
 		return true;
 	}
 	
-	public boolean energyBallRecovery()
+	public boolean energyBallRecovery()		// + 200 points if energy Ball recovered
 	{
 		return true;
 	}	
@@ -35,7 +35,7 @@ public class InformationsDisplay {
 		return true;
 	}
 	
-	public int playerScore()
+	public int playerScore()		// calculate playerScore
 	{
 		if(energyBallRecovery() == true)
 		{
@@ -53,7 +53,7 @@ public class InformationsDisplay {
 		return playerScore;
 	}
 	
-	public int healthPoints()			// - 1 hp when lorann is hit by ennemies
+	public int healthPoints()			// - 1 health point when lorann is hit by ennemies
 	{
 		if(lorannStatus() == false)
 		{

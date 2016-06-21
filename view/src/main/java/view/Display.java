@@ -14,6 +14,7 @@ public class Display {
 	
 	public boolean nextState()		//true = opened, false = closed
 									//if right, test with x+32 ...
+									//to see if Lorann can move or not
 	{
 		
 		return nextState();
