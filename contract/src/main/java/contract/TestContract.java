@@ -1,0 +1,14 @@
+package contract;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestContract {
+
+	@Test
+	public void test() {
+		fail("Not yet implemented");
+	}
+
+}
